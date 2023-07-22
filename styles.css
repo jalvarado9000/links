@@ -1,0 +1,54 @@
+*,*::before,*::after{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #657a00;
+  color:white;
+  font-weight: bolder;
+  text-align: center;
+  padding-left: 200px;
+  padding-right: 200px;
+  min-height: 100%;
+  padding-top: 30px;
+}
+
+.display-flex{
+  display: flex;
+  flex-direction: column;
+}
+
+#banner > img {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+}
+
+.box-buttons{
+  height: fit-content;
+  display: flex;
+  justify-content:space-between;
+  border:solid;
+  padding: 5px;
+  padding-right: 40px;
+  border-radius: 500px;
+  align-items: center;
+  margin:2rem;
+}
+
+.box-2{
+  display:flex;
+  justify-content: space-around;
+}
+
+.box-buttons > img{
+  object-fit: cover;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+}
+
+.box-buttons > h2{
+  text-align: center;
+  flex:1;
+}
